@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldLinear" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C158" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#997A15" />
+    </linearGradient>
+    <linearGradient id="slateLinear" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A1F2C" />
+      <stop offset="100%" stop-color="#11141C" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Rounded Crest Shield -->
+  <rect x="10" y="10" width="100" height="100" rx="28" fill="url(#slateLinear)" stroke="url(#goldLinear)" stroke-width="2.5" />
+
+  <!-- Inner Subtle Gold Hairline Diamond Frame -->
+  <polygon points="60,22 94,60 60,98 26,60" fill="none" stroke="#D4AF37" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Stylized Serif Monogram 'S' -->
+  <text x="60" y="73" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-size="44" font-weight="700" fill="url(#goldLinear)" text-anchor="middle" letter-spacing="0">S</text>
+</svg>

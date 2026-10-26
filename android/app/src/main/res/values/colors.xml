@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Matches AppColors.canvas so the native launch window and the Flutter splash are one surface. -->
+    <color name="splash_canvas">#FAF7F0</color>
+</resources>
